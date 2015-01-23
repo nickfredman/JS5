@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Untitled</title>
-  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-  <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="utf-8">
+    <title>JS5</title>
+     <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-	
+	<h1>User Profile</h1>
+    <form class="user-profile">
+        <div>
+            <label>Name:</label><p class="editable" id="name">John Smith</p><textarea rows="1" type="text" name="name" placeholder="John Smith"></textarea>
+        </div>
+        <div>
+            <label>E-mail:</label><p class="editable" id="email">john@website.com</p><textarea rows="1" type="email" name="email" placeholder="john@website.com"></textarea>
+        </div>
+        <div>
+            <label>Phone number:</label><p class="editable" id="phone">123-456-7890</p><textarea rows="1" type="tel" name="phone" placeholder="123-456-7890"></textarea>
+        </div>
+        <div>
+            <label>About me:</label><p class="editable" id="about-me">I'm an awesome guy from some place that loves doing all sorts of cool things indoors and outdoors.</p><textarea rows="4" cols="30" name="about-me" placeholder="I'm an awesome guy from some place that loves doing cool things."></textarea>
+        </div>
+    </form>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script src="main.js"></script>
 
