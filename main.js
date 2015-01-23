@@ -1,6 +1,6 @@
 $(document).on('ready', function() {
     $('textarea').hide();
-    $('p').on('click', function() {
+    $('.editable').on('click', function() {
         var newText = $(this).text();
         $(this).hide();
         $(this).siblings('textarea').show();
